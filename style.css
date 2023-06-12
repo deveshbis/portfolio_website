@@ -264,31 +264,31 @@ p{
     }
 }
 
-.skills-container li.bootstrap::after{
-    animation-name: bs;
+.skills-container li.js::after{
+    animation-name: js;
  }
  
- @keyframes bs{
+ @keyframes js{
      to{
          width: 85%;
      }
  }
 
-.skills-container li.js::after{
-   animation-name: js;
+.skills-container li.php::after{
+   animation-name: php;
 }
 
-@keyframes js{
+@keyframes php{
     to{
         width: 75%;
     }
 }
 
-.skills-container li.jquery::after{
-    animation-name: jq;
+.skills-container li.laravel::after{
+    animation-name: laravel;
  }
  
- @keyframes jq{
+ @keyframes laravel{
      to{
          width: 80%;
      }
